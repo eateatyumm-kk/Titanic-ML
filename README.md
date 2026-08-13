@@ -19,6 +19,7 @@ A beginner machine learning project using the Kaggle Titanic dataset.
 - Random Forest
 - Logistic Regression
 - Support Vector Classifier (SVC)
+- NN (MLP)
 
 ## Best Model
 
