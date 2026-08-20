@@ -1,0 +1,18 @@
+{"time":"2026-08-20T14:50:08.451699+09:00","level":"INFO","msg":"wandb-core"}
+{"time":"2026-08-20T14:50:08.452125+09:00","level":"INFO","msg":"stream: starting","core version":"0.28.2"}
+{"time":"2026-08-20T14:50:08.564783+09:00","level":"INFO","msg":"stream: created new stream","id":"janvn6cj"}
+{"time":"2026-08-20T14:50:08.564874+09:00","level":"INFO","msg":"handler: started"}
+{"time":"2026-08-20T14:50:08.56511+09:00","level":"INFO","msg":"stream: started"}
+{"time":"2026-08-20T14:50:08.565129+09:00","level":"INFO","msg":"writer: started","stream_id":"janvn6cj"}
+{"time":"2026-08-20T14:50:08.565164+09:00","level":"INFO","msg":"sender: started"}
+{"time":"2026-08-20T14:50:09.492263+09:00","level":"INFO","msg":"filestream: sending request","total_files":1}
+{"time":"2026-08-20T14:50:09.899109+09:00","level":"INFO","msg":"filestream: request sent","status":"200 OK"}
+{"time":"2026-08-20T14:50:11.079368+09:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-08-20T14:50:11.079913+09:00","level":"INFO","msg":"filestream: sending request","total_files":2,"history_offset":0,"history_lines":141,"uploaded_len":4,"complete":true,"exit_code":0}
+{"time":"2026-08-20T14:50:11.423221+09:00","level":"INFO","msg":"filestream: request sent","status":"200 OK"}
+{"time":"2026-08-20T14:50:11.426062+09:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-08-20T14:50:11.432481+09:00","level":"INFO","msg":"stream: finishing up"}
+{"time":"2026-08-20T14:50:11.432501+09:00","level":"INFO","msg":"handler: closed"}
+{"time":"2026-08-20T14:50:11.432683+09:00","level":"INFO","msg":"sender: closed"}
+{"time":"2026-08-20T14:50:11.4327+09:00","level":"INFO","msg":"stream: all finished"}
+{"time":"2026-08-20T14:50:13.433933+09:00","level":"ERROR","msg":"stream: failed to shut down analytics","error":"shutdown errors: [failed to upload metrics: context deadline exceeded: retry-able request failure: body: too many concurrent telemetry requests context deadline exceeded]"}

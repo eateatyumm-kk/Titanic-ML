@@ -1,0 +1,73 @@
+_wandb:
+    value:
+        cli_version: 0.28.2
+        e:
+            vk5ttnmttbmzxiy3lso6mxp901eqc023:
+                apple:
+                    ecpuCores: 4
+                    gpuCores: 7
+                    macModel: MacBookAir10,1
+                    memoryGb: 8
+                    name: Apple M1
+                    pcpuCores: 4
+                    ramTotalBytes: "8589934592"
+                    swapTotalBytes: "10737418240"
+                codePath: /Users/koshiro/Projects - ML/Titanic-ML/Notebook/titanic_NN.ipynb
+                codePathLocal: titanic_NN.ipynb
+                cpu_count: 8
+                cpu_count_logical: 8
+                disk:
+                    /:
+                        total: "245107195904"
+                        used: "227008430080"
+                email: 88koshiro.i@gmail.com
+                executable: /Users/koshiro/Projects - ML/Titanic-ML/.venv/bin/python
+                git:
+                    commit: 25fa0127a1f8dc7e0effbaf17ec83c41e0401868
+                    remote: https://github.com/eateatyumm-kk/Titanic-ML.git
+                host: Koshiros-MacBook-Air.local
+                memory:
+                    total: "8589934592"
+                os: macOS-26.6.1-arm64-arm-64bit-Mach-O
+                program: /Users/koshiro/Projects - ML/Titanic-ML/Notebook/titanic_NN.ipynb
+                python: CPython 3.14.6
+                root: /Users/koshiro/Projects - ML/Titanic-ML/Notebook
+                startedAt: "2026-08-20T05:50:17.030661Z"
+                writerId: vk5ttnmttbmzxiy3lso6mxp901eqc023
+        m: []
+        python_version: 3.14.6
+        t:
+            "1":
+                - 1
+                - 5
+                - 53
+            "2":
+                - 1
+                - 5
+                - 53
+            "3":
+                - 2
+                - 14
+                - 62
+            "4": 3.14.6
+            "5": 0.28.2
+            "8":
+                - 1
+            "12": 0.28.2
+            "13": darwin-arm64
+Dropout:
+    value: 0.1
+architecture:
+    value: MLP
+dataset:
+    value: Titanic_survival
+epochs:
+    value: 1000
+hidden_1:
+    value: 32
+hidden_2:
+    value: 16
+learning_rate:
+    value: 0.0014939674451982608
+patience:
+    value: 30

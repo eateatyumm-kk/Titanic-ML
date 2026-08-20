@@ -1,0 +1,29 @@
+2026-08-20 14:48:05,982 INFO    Thread-58 (_run_job):10037 [wandb_setup.py:_flush():81] Current SDK version is 0.28.2
+2026-08-20 14:48:05,983 INFO    Thread-58 (_run_job):10037 [wandb_setup.py:_flush():81] Configure stats pid to 10037
+2026-08-20 14:48:05,983 INFO    Thread-58 (_run_job):10037 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2026-08-20 14:48:05,983 INFO    Thread-58 (_run_job):10037 [wandb_init.py:setup_run_log_directory():739] Logging user logs to /Users/koshiro/Projects - ML/Titanic-ML/Notebook/wandb/run-20260820_144805-47ui350e/logs/debug.log
+2026-08-20 14:48:05,983 INFO    Thread-58 (_run_job):10037 [wandb_init.py:setup_run_log_directory():740] Logging internal logs to /Users/koshiro/Projects - ML/Titanic-ML/Notebook/wandb/run-20260820_144805-47ui350e/logs/debug-internal.log
+2026-08-20 14:48:05,983 INFO    Thread-58 (_run_job):10037 [wandb_init.py:monkeypatch_ipython():658] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x1265924e0>
+2026-08-20 14:48:05,983 INFO    Thread-58 (_run_job):10037 [wandb_init.py:init():783] calling init triggers
+2026-08-20 14:48:05,983 INFO    Thread-58 (_run_job):10037 [wandb_init.py:init():788] wandb.init called with sweep_config: {'Dropout': 0.2, 'architecture': 'MLP', 'dataset': 'Titanic_survival', 'epochs': 1000, 'hidden_1': 64, 'hidden_2': 16, 'learning_rate': 0.0014997860149895176, 'patience': 30}
+config: {'_wandb': {}}
+2026-08-20 14:48:05,983 INFO    Thread-58 (_run_job):10037 [wandb_init.py:init():831] starting backend
+2026-08-20 14:48:05,983 INFO    Thread-58 (_run_job):10037 [wandb_init.py:init():846] sending inform_init request
+2026-08-20 14:48:06,096 INFO    Thread-58 (_run_job):10037 [wandb_init.py:init():851] backend started and connected
+2026-08-20 14:48:06,097 INFO    Thread-58 (_run_job):10037 [wandb_run.py:_config_callback():1360] config_cb None None {'Dropout': 0.2, 'architecture': 'MLP', 'dataset': 'Titanic_survival', 'epochs': 1000, 'hidden_1': 64, 'hidden_2': 16, 'learning_rate': 0.0014997860149895176, 'patience': 30}
+2026-08-20 14:48:06,110 INFO    Thread-58 (_run_job):10037 [wandb_run.py:_label_probe_notebook():1290] probe notebook
+2026-08-20 14:48:06,111 INFO    Thread-58 (_run_job):10037 [wandb_init.py:init():921] updated telemetry
+2026-08-20 14:48:06,198 INFO    Thread-58 (_run_job):10037 [wandb_init.py:init():944] communicating run to backend with 90.0 second timeout
+2026-08-20 14:48:06,981 INFO    Thread-58 (_run_job):10037 [wandb_init.py:init():981] starting run threads in backend
+2026-08-20 14:48:07,122 INFO    Thread-58 (_run_job):10037 [wandb_run.py:_console_start():2626] atexit reg
+2026-08-20 14:48:07,122 INFO    Thread-58 (_run_job):10037 [wandb_run.py:_redirect():2476] redirect: wrap_raw
+2026-08-20 14:48:07,123 INFO    Thread-58 (_run_job):10037 [wandb_run.py:_redirect():2545] Wrapping output streams.
+2026-08-20 14:48:07,123 INFO    Thread-58 (_run_job):10037 [wandb_run.py:_redirect():2568] Redirects installed.
+2026-08-20 14:48:07,124 INFO    Thread-58 (_run_job):10037 [wandb_init.py:init():1019] run started, returning control to user process
+2026-08-20 14:48:07,648 INFO    Thread-58 (_run_job):10037 [wandb_run.py:_finish():2397] finishing run 88-eateatyumm-imperial-college-london/Titanic-ML/47ui350e
+2026-08-20 14:48:07,649 INFO    Thread-58 (_run_job):10037 [jupyter.py:save_ipynb():368] not saving jupyter notebook
+2026-08-20 14:48:07,649 INFO    Thread-58 (_run_job):10037 [wandb_init.py:_jupyter_teardown():637] cleaning up jupyter logic
+2026-08-20 14:48:07,650 INFO    Thread-58 (_run_job):10037 [wandb_run.py:_atexit_cleanup():2593] got exitcode: 0
+2026-08-20 14:48:07,650 INFO    Thread-58 (_run_job):10037 [wandb_run.py:_restore():2575] restore
+2026-08-20 14:48:07,650 INFO    Thread-58 (_run_job):10037 [wandb_run.py:_restore():2581] restore done
+2026-08-20 14:48:09,404 INFO    Thread-58 (_run_job):10037 [wandb_run.py:_footer_sync_info():4025] logging synced files

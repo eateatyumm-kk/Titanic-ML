@@ -1,0 +1,18 @@
+{"time":"2026-08-20T14:47:02.325118+09:00","level":"INFO","msg":"wandb-core"}
+{"time":"2026-08-20T14:47:02.328743+09:00","level":"INFO","msg":"stream: starting","core version":"0.28.2"}
+{"time":"2026-08-20T14:47:02.44344+09:00","level":"INFO","msg":"stream: created new stream","id":"4cqmvak7"}
+{"time":"2026-08-20T14:47:02.446607+09:00","level":"INFO","msg":"handler: started"}
+{"time":"2026-08-20T14:47:02.446864+09:00","level":"INFO","msg":"stream: started"}
+{"time":"2026-08-20T14:47:02.4472+09:00","level":"INFO","msg":"sender: started"}
+{"time":"2026-08-20T14:47:02.446895+09:00","level":"INFO","msg":"writer: started","stream_id":"4cqmvak7"}
+{"time":"2026-08-20T14:47:04.132519+09:00","level":"INFO","msg":"filestream: sending request","total_files":1}
+{"time":"2026-08-20T14:47:04.45721+09:00","level":"INFO","msg":"filestream: request sent","status":"200 OK"}
+{"time":"2026-08-20T14:47:05.931762+09:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-08-20T14:47:05.932392+09:00","level":"INFO","msg":"filestream: sending request","total_files":2,"history_offset":0,"history_lines":58,"uploaded_len":4,"complete":true,"exit_code":0}
+{"time":"2026-08-20T14:47:06.179659+09:00","level":"INFO","msg":"filestream: request sent","status":"200 OK"}
+{"time":"2026-08-20T14:47:06.185035+09:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-08-20T14:47:06.197916+09:00","level":"INFO","msg":"stream: finishing up"}
+{"time":"2026-08-20T14:47:06.197943+09:00","level":"INFO","msg":"handler: closed"}
+{"time":"2026-08-20T14:47:06.198331+09:00","level":"INFO","msg":"sender: closed"}
+{"time":"2026-08-20T14:47:06.198352+09:00","level":"INFO","msg":"stream: all finished"}
+{"time":"2026-08-20T14:47:08.199714+09:00","level":"ERROR","msg":"stream: failed to shut down analytics","error":"shutdown errors: [failed to upload metrics: context deadline exceeded: retry-able request failure: body: too many concurrent telemetry requests context deadline exceeded]"}

@@ -1,0 +1,18 @@
+wandb_version: 1
+
+Dropout:
+  value: 0.1
+architecture:
+  value: MLP
+dataset:
+  value: Titanic_survival
+epochs:
+  value: 1000
+hidden_1:
+  value: 32
+hidden_2:
+  value: 16
+learning_rate:
+  value: 0.0003502702255253583
+patience:
+  value: 30
